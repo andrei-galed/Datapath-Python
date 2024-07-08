@@ -7,7 +7,7 @@ CREATE TABLE movie (
   movieID  VARCHAR(8) PRIMARY KEY  NOT NULL,
   movieTitle VARCHAR(100) NOT NULL,
   releaseDate  DATE NOT NULL,
-  originalLanguage  VARCHAR(100) DEFAULT NULL,
+  originalLanguage  VARCHAR(100) DEFAULT NULL
   link VARCHAR(50) DEFAULT NULL
 );
 
